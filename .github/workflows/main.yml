@@ -38,8 +38,8 @@ jobs:
                        +force_dex_wqhd           \
                        +morosound                \
                        +boeffla_wl_blocker       \
-                       always_permit             \
-                       always_enforce
+                       +always_permit            \
+                       +always_enforce
           2>&1 | tee
 
 
